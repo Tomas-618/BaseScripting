@@ -823,7 +823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transform: {fileID: 1544564233}
-  _speed: 1
+  _speed: 2
 --- !u!65 &1544564230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -903,7 +903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544564227}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.54, y: 1.23, z: 3.41}
+  m_LocalPosition: {x: 2.46, y: 1.23, z: 6.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -940,4 +940,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transform: {fileID: 1544564233}
   _direction: {x: 0, y: -1, z: 0}
-  _speed: 30
+  _speed: 20

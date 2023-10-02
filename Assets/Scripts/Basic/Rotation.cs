@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Rotation : MonoBehaviour, ISpeedable
 {
-    [SerializeField] private Transform _transform;
     [SerializeField] private Vector3 _direction;
     [SerializeField] private float _speed;
 
@@ -12,5 +11,5 @@ public class Rotation : MonoBehaviour, ISpeedable
         Rotate();
 
     private void Rotate() =>
-        _transform.Rotate(_direction * Utils.GetNormalizedValue(Speed));
+        transform.Rotate(_direction * Utils.GetNormalizedValue(Speed));
 }
